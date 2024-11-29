@@ -1,0 +1,28 @@
+{
+  "name": "Serverless-xero-data-syncer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon ./billing-subscription.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shantanu Pratap",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "aws-sdk": "^2.1692.0",
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "pem": "^1.14.8",
+    "pg": "^8.13.1",
+    "qs": "^6.13.1",
+    "simple-oauth2": "^5.1.0",
+    "xero-node": "^9.3.0-alpha.5",
+    "bluebird": "^3.7.2",
+    "fs": "^0.0.1-security",
+    "pg-monitor": "^2.1.0",
+    "pg-promise": "^11.10.2"
+  }
+}
